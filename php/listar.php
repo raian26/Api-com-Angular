@@ -24,7 +24,7 @@ $cursos[$indice]['valorCurso']=$linha['valorCurso'];
 $indice++;
 }
 //após fazer o laço precisa encapsular em um JSON
-json_encode(['cursos' => $cursos]);
+echo json_encode($cursos);
 
 
 ?>
